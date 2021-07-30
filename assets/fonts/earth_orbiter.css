@@ -1,0 +1,157 @@
+@font-face {
+  font-family: "earth_orbiter";
+  src: url("../fonts/earth_orbiter.ttf");
+}
+
+p {
+  font-family: "earth_orbiter",
+  font-size: 150%;
+}
+
+.cambioColor {color:black;}
+/* Definimos el color al pasar el mouse por encima */
+.cambioColor:hover {color:#00bfd8;}
+
+
+.banner{
+background: url(../img/hero-bg.png) fixed left top;
+background-size: cover;
+background-repeat: no-repeat;
+border-top: solid 2px rgba(0, 0, 0, 0.6);
+height: 710px;
+}
+
+.banner:before{
+content: "";
+background: rgba(0, 0, 0, 0.3);
+position: absolute;
+width: 100%;
+opacity: 20%;
+height: 710px;
+}*/
+
+.centimg {
+	text-align: center;
+	color: red;
+}
+
+.maquinatxt{
+	text-align: center;
+	font-family: "earth_orbiter",
+	font-size: 150%;
+
+}
+
+
+
+.zoom{
+    transition: 1.5s ease;
+    -moz-transition: 1.5s ease; /* Firefox */
+    -webkit-transition: 1.5s ease; /* Chrome - Safari */
+    -o-transition: 1.5s ease; /* Opera */
+  }
+  .zoom:hover{
+    transform : scale(1.1);
+    -moz-transform : scale(1.1); /* Firefox */
+    -webkit-transform : scale(1.1); /* Chrome - Safari */
+    -o-transform : scale(1.1); /* Opera */
+    -ms-transform : scale(1.1); /* IE9 */
+  }
+
+
+.tituloefect{
+	font-size: 150px; 
+	padding: 20px; 
+	color: white;
+}
+
+@media only screen and (max-width: 1200px) {
+ .tituloefect {font-size:100px;}
+}
+
+@media only screen and (max-width: 768px) {
+ .tituloefect {font-size:60px;}
+}
+
+
+
+
+#counter2 {
+  background: url(../img/count2.jpg);
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+
+#counter2 .counter2-text {
+  height: 100%;
+  width: 100%;
+  display: table;
+}
+
+#counter2 .counter2-text > div {
+  vertical-align: middle;
+  display: table-cell;
+}
+
+#counter2 .counter2-text h3 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+#counter2 .counter2-text .desc-text p {
+  margin-bottom: 15px;
+}
+
+#counter2 .counter2-box {
+  padding: 20px 15px;
+  background: rgba(255, 255, 255, 0.1) none repeat scroll 0 0;
+  overflow: hidden;
+  border-radius: 0px;
+  box-shadow: 0px 9px 16px 0px rgba(225, 225, 225, 0.004);
+  text-align: center;
+  position: relative;
+}
+
+#counter2 .counter2-box .icon-o {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+#counter2 .counter2-box .icon-o i {
+  font-size: 42px;
+}
+
+#counter2 .counter2-box h3 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  padding-bottom: 10px;
+  position: relative;
+  transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+}
+
+#counter2 .counter2-box h3:before {
+  position: absolute;
+  content: '';
+  height: 1px;
+  width: 45px;
+  left: 50%;
+  bottom: 0;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: #e5e5e5;
+}
+
+#counter2 .counter2-box p {
+  color: #fff;
+  font-size: 16px;
+}
+*/
+
+
